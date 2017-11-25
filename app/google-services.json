@@ -1,66 +1,35 @@
 {
   "project_info": {
-    "project_number": "1023958491163",
-    "firebase_url": "https://agenda-vapor.firebaseio.com",
-    "project_id": "agenda-vapor",
-    "storage_bucket": "agenda-vapor.appspot.com"
+    "project_number": "1020271013264",
+    "firebase_url": "https://agendafinal-a006c.firebaseio.com",
+    "project_id": "agendafinal-a006c",
+    "storage_bucket": "agendafinal-a006c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1023958491163:android:bec1121c0356f2cf",
+        "mobilesdk_app_id": "1:1020271013264:android:63b16ecfca3420c1",
         "android_client_info": {
-          "package_name": "br.com.heldermmelo.agenda"
+          "package_name": "br.com.helder.agendafinal"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1023958491163-q71va0lv0hjs68g546vcvl5rkegdmgro.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyC5EQqR_pjcVPb8QUGV41TuK9TfOzFpMWU"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:1023958491163:android:56e3097644f726ec",
-        "android_client_info": {
-          "package_name": "com.upward.helder.agendavapor"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "1023958491163-olbn1382ednbbrmg5kka8qb3klo0hctb.apps.googleusercontent.com",
+          "client_id": "1020271013264-sokf0i7sr4ve2jpmlgtdnineuiq8ihqt.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.upward.helder.agendavapor",
+            "package_name": "br.com.helder.agendafinal",
             "certificate_hash": "70cc8c3bd2f15ba9aa865ecd1c524ab9c23df78c"
           }
         },
         {
-          "client_id": "1023958491163-q71va0lv0hjs68g546vcvl5rkegdmgro.apps.googleusercontent.com",
+          "client_id": "1020271013264-6qk6ledfpqk2au2infhmle4795nij33m.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC5EQqR_pjcVPb8QUGV41TuK9TfOzFpMWU"
+          "current_key": "AIzaSyCm8W3RXHIcgsk2EP0itjVjAOi1fmBtL9s"
         }
       ],
       "services": {
@@ -71,41 +40,10 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "1023958491163-q71va0lv0hjs68g546vcvl5rkegdmgro.apps.googleusercontent.com",
+              "client_id": "1020271013264-6qk6ledfpqk2au2infhmle4795nij33m.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:1023958491163:android:63b16ecfca3420c1",
-        "android_client_info": {
-          "package_name": "br.com.helder.agendafinal"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "1023958491163-q71va0lv0hjs68g546vcvl5rkegdmgro.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyC5EQqR_pjcVPb8QUGV41TuK9TfOzFpMWU"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2

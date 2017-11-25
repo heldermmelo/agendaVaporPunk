@@ -4,18 +4,23 @@
 
     <application
         android:allowBackup="true"
+        android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Controle.AtividadePrincipal"/>
+        <activity android:name=".Controle.AtividadePrincipal" />
+        <activity android:name=".Controle.RecepcaoActivity" />
         <activity android:name=".Controle.AtividadeLogin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Controle.CadastroActivity" />
+        <activity android:name=".Controle.RecepcaoActivity"></activity>
     </application>
 
 </manifest>

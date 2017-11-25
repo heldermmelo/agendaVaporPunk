@@ -105,13 +105,13 @@ public class AtividadeLogin extends AppCompatActivity implements View.OnClickLis
 
         Util.idUsuario = user.getUid();
 
-        Intent intent = new Intent(this, AtividadePrincipal.class);
+        Intent intent = new Intent(this, RecepcaoActivity.class);
         intent.putExtra("usuario", usuario);
         startActivity(intent);
     }
 
     public void cadastrar(View v) {
-      //  Intent intent = new Intent(this, EditarUsuarioActivity.class);
-      //  startActivity(intent);
+       // Intent intent = new Intent(this, EditarUsuarioActivity.class);
+        //startActivity(intent);
     }
 }

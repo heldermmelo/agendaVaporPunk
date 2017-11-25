@@ -9,23 +9,27 @@ import br.com.helder.agendafinal.R;
 
 public class AtividadePrincipal extends AppCompatActivity {
 
-    TextView txtNome;
-    TextView txtEmail;
+
+    //TextView txtEmail;
+    //TextView txtSenha;
+    //TextView txtNome;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_atividade_principal);
 
-        txtNome = (TextView) findViewById(R.id.txtNome);
-        txtEmail = (TextView) findViewById(R.id.txtEmail);
+   //     txtNome = (TextView) findViewById(R.id.txtPrincipalNome);
+      //  txtEmail = (TextView) findViewById(R.id.txtEmail);
+       // txtSenha = (TextView) findViewById(R.id.txtSenha);
+
 
         Intent it = getIntent();
 
-        String nome = it.getStringExtra("nome");
-        txtNome.setText(nome);
+        //String email = it.getStringExtra("email");
+        //txtEmail.setText(email);
 
-        String email = it.getStringExtra("email");
-        txtEmail.setText(email);
+        //String senha = it.getStringExtra("senha");
+        //txtSenha.setText(senha);
     }
 }
