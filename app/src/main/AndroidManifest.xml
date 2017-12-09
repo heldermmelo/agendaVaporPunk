@@ -19,8 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Controle.CadastroActivity" />
-        <activity android:name=".Controle.RecepcaoActivity"></activity>
+        <activity android:name=".Controle.CadastroLembreteActivity" />
+        
     </application>
 
 </manifest>

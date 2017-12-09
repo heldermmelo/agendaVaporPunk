@@ -1,0 +1,41 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controle.CadastroLembreteActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informe a data:" />
+
+        <EditText
+            android:id="@+id/txtLembrete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Escreva uma indicação do que precisa lembrar"
+            android:focusable="false"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/dataEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="dd/mm/aaaa"
+            android:focusable="false"
+            android:inputType="none"/>
+
+        <DatePicker
+            android:id="@+id/dtPickResultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+    </LinearLayout>
+</RelativeLayout>
