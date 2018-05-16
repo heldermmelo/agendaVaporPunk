@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AgendaFinal</string>
+    <string name="dataInicialFinal">Data inicial também é a final</string>
+    <string name="dataInicial">Entre com a data inicial</string>
+    <string name="lembrete">Escreva uma indicação do que deseja lembrar</string>
+    <string name="formatoData">dd/mm/aaaa</string>
 </resources>

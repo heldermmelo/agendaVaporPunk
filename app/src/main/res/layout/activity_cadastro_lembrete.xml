@@ -6,36 +6,64 @@
     android:layout_height="match_parent"
     tools:context=".Controle.CadastroLembreteActivity">
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="16dp">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Informe a data:" />
 
         <EditText
             android:id="@+id/txtLembrete"
+            style="@android:style/Widget.AutoCompleteTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Escreva uma indicação do que precisa lembrar"
-            android:focusable="false"
-            android:inputType="text"/>
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_marginTop="41dp"
+            android:hint="@string/lembrete"
+            android:inputType="text"
+            android:visibility="visible"
+            tools:layout_height="wrap_content"
+            tools:layout_width="wrap_content" />
+
         <EditText
             android:id="@+id/dataEdit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="dd/mm/aaaa"
+            android:layout_alignTop="@+id/dtPickResultado"
+            android:layout_toEndOf="@+id/checkBox"
             android:focusable="false"
-            android:inputType="none"/>
+            android:hint="@string/formatoData"
+            android:inputType="none"
+            android:visibility="visible" />
 
         <DatePicker
             android:id="@+id/dtPickResultado"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:visibility="invisible"/>
-    </LinearLayout>
+            android:layout_below="@+id/checkBox"
+            android:layout_centerHorizontal="true"
+            android:visibility="visible" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/txtLembrete"
+            android:layout_marginTop="82dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtLembrete"
+            android:layout_marginTop="21dp"
+            />
+
+        <Button
+            android:id="@+id/btnAdicionarLembrete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dtPickResultado"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="58dp"
+            android:text="Button" />
+
 </RelativeLayout>

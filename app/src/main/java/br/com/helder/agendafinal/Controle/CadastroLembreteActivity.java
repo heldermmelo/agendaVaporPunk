@@ -92,9 +92,19 @@ public class CadastroLembreteActivity extends AppCompatActivity {
         ano = cal.get(Calendar.YEAR);
         mes = cal.get(Calendar.MONTH);
         dia = cal.get(Calendar.DAY_OF_MONTH);
-        dtPickResultado = (DatePicker) findViewById(R.id.dtPickResultado);
-       // Lembrete lembrete=new Lembrete((findViewById(R.id.editText)));
-        //lembrete
+        dtPickResultado =  findViewById(R.id.dtPickResultado);
+      final Lembrete lembrete=new Lembrete();
+        Button reg = findViewById(R.id.btnAdicionarLembrete);
+        reg.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View reg) {
+
+               lembrete.setLembrete(txtLembrete.toString()); // Fetch strings from edit texts here and check if they are not empty
+
+
+            }
+        });
 
         //clique sobre o botão para editar texto:
 
@@ -136,11 +146,11 @@ public class CadastroLembreteActivity extends AppCompatActivity {
         //this.lembrete = lembrete;
     //}
     Intent intent = new Intent(this, AtividadePrincipal.class);
-    //intent.putExtra("lembrete", setLembrete());
+    //intent.putExtra("lembrete", lembrete);
 
     @Override
     public void startActivity(Intent intent) {
         super.startActivity(intent);
-    };
+    }
     }
 
